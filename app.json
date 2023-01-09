@@ -1,0 +1,45 @@
+{
+    "name": "HB Auto Filter Bot",
+    "description": "A Filter Bot Which Doesn't Need Manual Filter Adding",
+    "logo": "https://avatars.githubusercontent.com/u/88565605?s=400&u=ace2b3e67145a902cc2b821e649ce8acd259c296&v=4",
+    "keywords": [
+        "Auto",
+        "Filter",
+        "Mongo DB"
+    ],
+    "repository": "https://github.com/unknown-02/FIlter_Bot",
+    "success_url": "https://t.me/hrishi_bhavar_0819",
+    "env": {
+        "APP_ID": {
+            "description": "24326221",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "00e648d133cab6649bb364b5fb3630d3",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "5852387662:AAEAWLY72zF_e59xzUlrl_D0nP4Sm7c4Ezk",
+            "value": ""
+        },
+        "DB_URI": {
+            "description": "mongodb+srv://hbhavar12:Hrishi@123@cluster0.qunj8nu.mongodb.net/?retryWrites=true&w=majority",
+            "value": ""
+        },
+        "USER_SESSION": {
+            "description": "BQCWRZEcRnYZwdonCCbSTov-mGHVD5wxytiu-UvKWLfl9cgh-qhH-NDk2n8MqTx7uNYTIvNK_p-t2NXXqXNYKScvIo_sXmh1guV0akxV2DfnXOwuIXZwwtlMIt6QiSyyDhLQAS_zFHm67Gw_gc3jSuwcTQ-aYGFC-_SbqG17z14_ueVCJs-L3PdU3hB-EUXvQosNDORWJ8K5RbZOIEODgZsj2u4jQ4vP6kofZsgpC0nO3SBq1DAw3krIwPDrbw4EC-FS7Aoqrr_jMQuAP-6dusRJ4n3Mf_fpfD_geI9c9tMYOvTYi_NCsZ0YVWYmyn53tIA16rQGTKsqrTG8lwWaV7sZAAAAADz2O-QA",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "https://github.com/unknown-02/FIlter_Bot"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
